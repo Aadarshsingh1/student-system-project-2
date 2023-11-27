@@ -77,7 +77,7 @@ public class StudentInformationSystem {
         //make a student
         Course mathCourse = new Course("M2", "Mathematics-2", 3);
         Course bioCourse = new Course("M1", "Mathematics-1", 4);
-            //make a student
+            //make a  new student
         Student student = new Student("0206cs211001", "Aadarsh Singh");
         student.enrollCourse(mathCourse);
         student.enrollCourse(bioCourse);
